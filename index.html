@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,62 +8,215 @@
     <title>Modern Art Gallery</title>
 </head>
 <body class="bg-white">
-    <header class="lg:w-full">
-    <section class="max-w-screen-lg mx-auto lg:flex lg:items-center lg:gap-6">
-        
-            <img src="photos/ryan-stefan-unsplash.jpg" alt="Ryan Stefan Art" class="w-[50] h-full object-cover">
-        
-        <section class="px-4 py-8 lg:w-1/2">
-        <h1 class="text-4xl lg:text-6xl font-extrabold leading-tight tracking-tight">MODERN <br> ART GALLERY</h1>
-    <p class="mt-4 text-gray-600 leading-relaxed lg:text-lg">
-    The art in the collection of Modern Art Gallery all started from a spark of inspiration. Will this piece inspire you? Visit us and find out.</p>
-
-    <a href="location.html" class="inline-flex items-center mt-6">
-    <button class="bg-black text-white px-6 py-3 font-semibold tracking-wider">OUR LOCATION</button>
-    <span class="bg-orange-300 px-4 py-3 text-xl font-bold">></span></a>
-        </section>
-    </section>
-
-    <section class="max-w-screen-lg mx-auto mt-10">
-        <article>
-        <img src="photos/Alex shuper.avif" class="w-full lg:w-1/2">
-        </article>
-    </section>
-    </header>
-    <!-- ABOUT -->
-    <main class="max-w-screen-lg mx-auto px-4 py-12">
-        <section class="lg:flex lg:items-center lg:gap-10 mb-16">
-            <!-- Text -->
-            <section class="lg:w-1/2">
-
+    <section class="hidden lg:block">
+        <section class="grid grid-cols-3 h-screen place-items-center">
+            <section class="bg-black text-white pt-32 pl-40 pr-28 flex w-full h-full z-10">
+                <h1 class="text-[96px] leading-[88px] font-black uppercase tracking-[-2px]">
+                    MODE<span class="text-black">RN</span><br>ART GALLE<span class="text-black">RY</span>
+                </h1>
+            </section>
+            <section class="inset-0 bg-[url('photos/ryan-stefan-unsplash.jpg')] bg-cover bg-center w-full h-full">
+            </section>
+            <section class="pt-32 -ml-12 w-full h-full">
+                <p class="text-[22px] leading-[32px] text-gray-700 mb-12 max-w-[350px]">
+                    The arts in the collection of the Modern Art Gallery all started from a spark of inspiration.
+                    Will these pieces inspire you? Visit us and find out.
+                </p>
+                <a href="location.html" class="inline-flex items-center group">
+                    <span
+                        class="bg-black text-white px-8 py-6 font-bold text-xl tracking-wider group-hover:bg-[#D5966C] transition">
+                        OUR LOCATION
+                    </span>
+                    <span class="bg-[#D5966C] px-8 py-6 text-2xl font-bold group-hover:bg-black transition">
+                        →
+                    </span>
+                </a>
             </section>
         </section>
 
-        <!-- YOUR DAY AT THE GALLERY -->
-         <section class="mb-16">
-            <h1 class="text-5xl lg:text-4xl font-bold">YOUR DAY AT THE GALLERY</h1>
-        <p class="mt-3 text-gray-700 leading-relaxed lg:text-lg">Wander through our distinct collection and find new insights about our artists. Dive into the details of their creative process.</p>
+        <main class="py-40 px-10">
+            <section class="grid grid-cols-2 mb-10">
+                <section class="px-20">
+                    <h2 class="text-[70px] leading-[60px] font-black uppercase mb-10">
+                        YOUR DAY AT THE GALLERY
+                    </h2>
+                    <p class="text-[20px] leading-[32px] text-gray-600">
+                        Wander through our distinct collections and find new insights about our artists. dive into
+                        the
+                        details of their creative process.
+                    </p>
+                </section>
+                <section>
+                    <img src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FsbGVyeXxlbnwwfHwwfHx8MA%3D%3D" alt="" class="h-full w-full">
+                </section>
+            </section>
+            <section class="flex gap-4">
+                <section class=" flex-1 w-1/2">
+                    <img src="photos/robin-schreiner-unsplash.jpg" alt="Gallery view" class="w-full object-cover">
+                </section>
+                <section class="flex-1">
+                    <section class="flex flex-col gap-5 h-full">
+                        <section class="h-1/2">
+                            <img src="photos/Mohammed%20Nohassi.avif" alt="Art piece">
+                        </section>
+                        <section class="bg-black text-white p-20 h-1/2">
+                            <h2 class="text-[60px] leading-[60px] font-black uppercase mb-8">
+                                COME & BE<br>INSPIRED
+                            </h2>
+                            <p class="text-[22px] leading-[32px] text-gray-300">
+                                We're excited to welcome you to our gallery and see how our collections influence you.
+                            </p>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </main>
+    </section>
 
-         <!-- Image -->
-        <article class="mt-6 space-y-4 lg:space-y-0 lg:flex lg:gap-6">
-            <img src="photos/robin-schreiner-unsplash.jpg" class="w-full lg:w-1/2">
+    <!-- TABLET LAYOUT -->
+    <section class="hidden md:block lg:hidden">
+        <section class="flex h-screen">
+            <section class="w-1/2 h-full bg-[url('photos/ryan-stefan-unsplash.jpg')] bg-cover bg-center"></section>
+            <section class="text-black h-full -ml-20 bg-transparent px-10 pt-15 pb-16 w-1/2">
+                <h1 class="text-[70px] leading-[65px] font-black uppercase">
+                    MODERN<br>ART GALLERY
+                </h1>
+                <p class="text-[22px] leading-[32px] text-gray-600 mb-12">
+                    The arts in the collection of the Modern Art Gallery all started from a spark of inspiration. Will
+                    these pieces inspire you? Visit us and find out.
+                </p>
+                <a href="location.html" class="inline-flex items-center group">
+                    <span
+                        class="bg-black text-white px-8 py-6 font-bold text-xl tracking-tight group-hover:bg-[#D5966C] transition">
+                        OUR LOCATION
+                    </span>
+                    <span class="bg-[#D5966C] px-8 py-6 text-2xl font-bold group-hover:bg-black transition">
+                        →
+                    </span>
+                </a>
+            </section>
+        </section>
 
-            <img src="photos/Mohammed Nohassi.avif" alt="Mohammed" class="w-full">         
-        </article>
+        <main class="px-10 py-20">
+            <section class="flex gap-5 mb-20">
+                <section class="flex-1">
+                    <h2 class="text-[50px] leading-[45px] font-black uppercase mb-8">
+                        YOUR DAY AT THE GALLERY
+                    </h2>
+                    <p class="text-[22px] leading-[32px] text-gray-600">
+                        Wander through our distinct collections and find new insights about our artists. Sectione into
+                        the
+                        details of their creative process.
+                    </p>
+                </section>
+                <section class="h-[313px] w-1/2 bg-[url('https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FsbGVyeXxlbnwwfHwwfHx8MA%3D%3D')] bg-cover bg-center"></section>
+            </section>
+            <section class="flex gap-4 mb-16">
+                <section class="flex-1">
+                    <img src="photos/robin-schreiner-unsplash.jpg" alt="Gallery view"
+                        class="w-full h-full object-cover">
+                </section>
+                <section class="flex-1">
+                    <section class="flex flex-col gap-10">
+                    <section class="flex-1 h-1/2">
+                        <img src="photos/Mohammed%20Nohassi.avif" alt="Art piece" class="w-full h-full object-cover">
+                    </section>
+                    <section class="bg-black text-white p-12 flex-1 h-1/2">
+                        <h2 class="text-[50px] leading-[45px] font-black uppercase mb-6">
+                            COME & BE<br>INSPIRED
+                        </h2>
+                        <p class="text-[22px] leading-[32px] text-gray-300">
+                            We're excited to welcome you to our gallery and see how our collections influence you.
+                        </p>
+                    </section>
+                    </section>
+                </section>
+        </main>
+    </section>
+
+    <!-- MOBILE LAYOUT -->
+    <section class="md:hidden">
+        <section class="relative">
+            <section class="h-[240px] bg-[url('photos/ryan-stefan-unsplash.jpg')] bg-cover bg-center"></section>
+            <section class="text-black px-6 pt-12 pb-6">
+                <h1 class="text-[60px] leading-[55px] font-black uppercase">
+                    MODERN ART GALLERY
+                </h1>
+            </section>
+            <section class="px-6 py-8 bg-white">
+                <p class="text-[18px] leading-[28px] text-gray-600 mb-8">
+                    The arts in the collection of the Modern Art Gallery all started from a spark of inspiration. Will
+                    these pieces inspire you? Visit us and find out.
+                </p>
+                <a href="location.html" class="inline-flex items-center group">
+                    <span
+                        class="bg-black text-white px-6 py-4 font-bold text-lg tracking-wider group-hover:bg-[#D5966C] transition">
+                        OUR LOCATION
+                    </span>
+                    <span class="bg-[#D5966C] px-6 py-4 text-xl font-bold group-hover:bg-black transition">
+                        →
+                    </span>
+                </a>
+            </section>
         </section>
-        <!-- COME AND BE INSPIRED -->
-        <section class="bg-black text-white p-10 text-center lg:text-left lg:flex lg:flex-col lg:items-start">
-        <h1 class="text-3xl lg:text-3xl font-bold">COME AND BE INSPIRED</h1>
-        <p class="mt-4 text-lg leading-relaxed max-w-xl">We are excited to welcome you to our gallery and see how our collection influences you.</p>
-        </section>
-    </main>
-    <!-- FOOTER -->
-    <footer class="bg-black text-white px-6 py-10 mt-10">
-        <section class="max-w-screen-lg mx-auto lg:flex lg:justify-between lg:items-start lg:gap-10">
-            <h1 class="text-xl font-bold lg:text-2xl">MODERN<br> ART GALLERY</h1>
-            <p class="mt-4 lg:mt-0 leading-relaxed lg:text-lg lg:max-w-xl">The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.</p>
-            <p class="mt-6 lg:mt-0 text-sm">&copy; Modern Art Gallery, 2025</p>
+
+        <main class="px-6 py-16">
+            <section>
+                <section class="h-[240px] mb-6 bg-[url('https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FsbGVyeXxlbnwwfHwwfHx8MA%3D%3D')] bg-cover bg-center"></section>
+            </section>
+            <section class="mb-5">
+                <h2 class="text-[50px] leading-[45px] font-black uppercase mb-6">
+                    YOUR DAY AT THE GALLERY
+                </h2>
+                <p class="text-[18px] leading-[28px] text-gray-600 mb-10">
+                    Wander through our distinct collections and find new insights about our artists. Dive into the
+                    details of their creative process.
+                </p>
+
+                <section class="space-y-6">
+                    <img src="photos/robin-schreiner-unsplash.jpg" alt="Gallery view"
+                        class="w-full h-[240px] object-cover">
+                    <img src="photos/Mohammed%20Nohassi.avif" alt="Art piece" class="w-full h-1/2 object-cover">
+                    <section class="bg-black h-1/2 text-white p-5">
+                        <h2 class="text-[50px] leading-[45px] font-black uppercase">
+                            COME & BE INSPIRED
+                        </h2>
+                        <p class="text-[18px] leading-[28px] text-gray-300">
+                            We're excited to welcome you to our gallery and see how our collections influence you.
+                        </p>
+                    </section>
+                </section>
+            </section>
+        </main>
+    </section>
+
+    <footer class="bg-black text-white px-6 md:px-10 lg:px-30 py-16">
+        <section class="flex flex-col md:flex-row gap-8">
+            <section>
+                <h3 class="text-[30px] md:text-[40px] leading-[40px] font-black uppercase mb-4 md:mb-0">
+                    MODERN<br>ART GALLERY
+                </h3>
+            </section>
+            <section>
+                <p class="text-[18px] md:text-[22px] leading-[28px] md:leading-[32px] text-gray-300 mb-8 md:mb-0">
+                    The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find us
+                    at 99 King Street, Newport, USA.
+                </p>
+            </section>
+
+            <section class="flex gap-6 md:justify-end">
+                <a href="#" class="text-gray-300 hover:text-white transition">
+                    <span class="text-xl">FB</span>
+                </a>
+                <a href="#" class="text-gray-300 hover:text-white transition">
+                    <span class="text-xl">IG</span>
+                </a>
+                <a href="#" class="text-gray-300 hover:text-white transition">
+                    <span class="text-xl">TW</span>
+                </a>
+            </section>
         </section>
     </footer>
 </body>
+
 </html>
